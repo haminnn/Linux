@@ -1,0 +1,58 @@
+env
+echo
+which
+time
+finger
+mesg [y|n]
+write
+wall
+whatis
+sleep
+clear
+su
+ls
+cd
+pwd 
+
+echo Hello World
+echo -e Hello World "\n" Who are you
+which ls
+which fdisk
+which passwd
+time
+time ls
+
+cd / 
+
+--ex
+--1.현재 위치한 디렉토리에 존재하는 모든 파일목록을 한꺼번에 출력하기
+ls
+--2.user 디렉토리에 존재하는 모든 파일목록 출력하기
+
+--1.현재 위치에서 /usr/lib 디렉토리로 이동하기
+cd /ust/lib
+--2.이동한 /usr/lib 디렉토리에서 홈디렉토리로 바로 이동하기
+cd /
+
+--1.현재 디렉토리의 위치를 홈 디렉토리로 이동하기
+--2.홈디렉토리 위치에서 /usr/lib 디렉토리 숨김파일까지 모두 출력하기.
+
+--1. 현재 디렉토리의 위치에서 tmp 디렉토리에 있는 test 파일 존재여부 확인하기
+--2. /usr/lib 디렉토리로 이동한 다름 sample.txt파일이 존재하는지 확인하기
+--3. 홈 디렉토리로 바로 이동하기
+
+--1. 홈 디렉토리에 2개의 디렉토리 d_mark01, d_mark02 생성하기
+--2. 생성한 d_mark01 디렉토리로 커서 위치 이동하기
+--3. d_mark01 디렉토리 위치에서 상대번지를 사용하여 d_mark02 디렉토리로 바로 이동하기
+--4. 커서 위치를 홈 디렉토리로 바로 이동하기
+
+--1.홈 디렉토리에 존재하는 디렉토리의 목록 출력하기
+--2.홈 디렉토리에 2개의 디렉토리 d_mark01, d_mark02 한꺼번에 삭제하기
+--3.d_mark01,d_mark02
+
+--1.홈 디렉토리에서 /work/space/zone 계층적 디렉토리 생성하기
+--2. work 디렉토리의 하위 디렉토리까지 한꺼번에 계층적 디렉토리 출력하기
+--3.zone 디렉토리로 한 번에 이동하기
+--4.홈 디렉토리로 바로 이동하기
+--5. 한꺼번에 /work/space/zone 계층적 디렉토리 삭제하기
+--6.계층적 디렉토리가 정상적으로 삭제되었는지 확인하기
